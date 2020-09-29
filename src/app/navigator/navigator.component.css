@@ -26,8 +26,7 @@
 }
 
 .pic {
-  float: right;
-  min-height: 400px;
+  min-height: 25vw;
 }
 
 .links{

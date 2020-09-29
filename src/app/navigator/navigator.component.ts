@@ -9,7 +9,6 @@ import { map, shareReplay } from 'rxjs/operators';
   styleUrls: ['./navigator.component.css']
 })
 export class NavigatorComponent {
-  netlifyLink = `Netlify`;
   links = new Map([
 
     ["about", 
