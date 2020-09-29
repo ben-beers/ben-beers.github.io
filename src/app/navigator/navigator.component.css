@@ -1,0 +1,47 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.contentText {
+  padding: 2%;
+  display:flex;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+    
+}
+
+.pic {
+  float: right;
+  min-height: 400px;
+}
+
+.links{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+a:link {
+  color: mediumseagreen;
+}
+
+a:visited {
+  color: white;
+}
